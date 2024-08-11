@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="V2.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="particles.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div id="player"></div>
+      <div class="controls">
+        <span id="prevSong">
+          <i class="fa-solid fa-backward-step fa-3x fa-inverse"></i>
+        </span>
+        <span id="playPauseIcon">
+          <i></i>
+        </span>
+        <span id="nextSong">
+          <i class="fa-solid fa-forward-step fa-3x fa-inverse"></i>
+        </span>
+        <span id="muteUnmuteIcon">
+          <i></i>
+        </span>
+        <input
+          id="volume-bar"
+          type="range"
+          id="volume-bar"
+          min="0"
+          max="100"
+          value="50"
+        />
+    </div>
+  </body>
+</html>

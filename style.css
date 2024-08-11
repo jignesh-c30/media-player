@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#player{
+    display: none;
+}
+#particles-js{
+    background-color: #404258;
+}
+.controls{
+    position: absolute;
+    bottom: 8%;
+    height: 10%;
+    width: 100%;
+}
